@@ -1,16 +1,14 @@
-import React,{Component} from 'react'
+import React,{Component} from 'react';
+
 
 class HelloWorld extends Component
 {
     render(){
         return(
-            <div>Hello {this.probs.name} </div>
+            <div>Hello world</div>
         );
     }
 }
 
-ReactDom.render(
-    <HelloWorld name="Ragi"/>,
-    mountNode
-);
+
 export default HelloWorld;
